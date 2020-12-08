@@ -10,6 +10,7 @@ public class CorrectObjectFound : MonoBehaviour
 
     public GameObject textObject;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +30,13 @@ public class CorrectObjectFound : MonoBehaviour
         pointerLight.SetActive(true);
 
         textObject.SetActive(true);
+
+
     }
+
+
+ 
+    
 
     //if you want to make text disappear after some time look at COROUTINES online
 }
